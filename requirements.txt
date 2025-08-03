@@ -1,0 +1,19 @@
+# requirements file
+# note which revision of python, for example 3.9.6
+
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+openai>=1.0.0
+tqdm>=4.65.0
+datasets>=2.12.0
+pinecone>=3.0.0
+pinecone-datasets>=0.5.0
+pinecone-text>=0.5.0
+gradio>=3.40.0
+beautifulsoup4>=4.12.0
+pyarrow>=12.0.0
+lxml>=4.9.0
+requests>=2.30.0
+tenacity>=8.2.0  # For retry logic with exponential backoff
+gradio
